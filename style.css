@@ -319,8 +319,11 @@ nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    #header{
-        background-image: url(images/ph2.jpg);
+   #header {
+        background-image: url(images/phonenew.jpg);
+        background-position: -20px center; /* Move the image 20px to the left */
+        background-size: cover; /* Ensures the image covers the entire background */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
     }
     .header-text{
         margin-top: 100%;
